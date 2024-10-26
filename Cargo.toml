@@ -22,6 +22,7 @@ serde_toml = "0.0.1"
 serde_yaml = "0.9.34"
 tokio = { version = "1.41.0", features = ["rt", "rt-multi-thread", "net", "fs", "macros"] }
 toml = "0.8.19"
+tower-http = { version = "0.6.1", features = ["compression-full", "cors", "trace", "fs"] }
 tracing = "0.1.40"
 tracing-subscriber = { version = "0.3.18", features = ["env-filter"] }
 zxcvbn = "3.1.0"
